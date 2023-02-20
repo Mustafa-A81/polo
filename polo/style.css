@@ -1,0 +1,73 @@
+.card_one{
+    --s: 0px;
+    --b: 2px;
+    --g: 6px;
+    --c: #0afbfb;
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid rgba(240, 55, 4, 0.6);
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card_one:hover{
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+.profile_text{
+    font-size: 0.8em !important;
+}
+.icon_facebook{
+    width: 1em;
+    color: #3b5998;
+}
+.icon_facebook:hover{
+    color: #5f7198;
+}
+.icon_instagram{
+    width: 1em;
+    color: #E1306C;
+}
+.icon_instagram:hover{
+    color: #e25f8b;
+}
+.icon_linkedin{
+    width: 1em;
+    color: #1666C5;
+}
+.icon_linkedin:hover{
+    color: #3b78c2;
+}
+.icon_github{
+    width: 1em;
+    color: #171515;
+}
+.icon_github:hover{
+    color: #323131;
+}
+
+.slide_profile{
+    width: 15% !important;
+}
+.fa-envelope{
+    width: 100%;
+    color:#c3bebe !important;
+}
+.icon_mail .fa-envelope{
+    color: #ffffff !important;
+}
+.icon_mail .fa-envelope:hover{
+    background-color: transparent !important;
+}
+
+.submit{
+    color: #78aef0 !important;
+    background-color: #fff;
+    border: 2px solid #78aef0;
+    margin-top: -10vh;
+}
+.submit:hover{
+    color:#fff !important;
+    background-color: #78aef0;
+}
